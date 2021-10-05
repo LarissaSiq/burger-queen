@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/src/assets/images/background-dark.jpg');
+}
+
+.imgBurgerRoles {
+    position: absolute;
+    z-index: -3;
+    margin-top: 2%;
+    height: 90vh;
+    width: 55%;
+    opacity: 0.1;
+}
+
+.imgLogo {
+    display: none;
+    width: 10rem;
+}
+
+.logo {
+    position: absolute;
+    font-family: Oswald;
+    color: #FF9900;
+    margin: 1.5rem;
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+    z-index: 10;
+    letter-spacing: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.burger {
+    margin: 0rem 0rem 0rem 4.3rem;
+}
+
+
+.divInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formFieldsetLogin {
+    border: none;
+    background-color: #FFE1BE;
+    margin: 1.5rem 0rem 0rem 0rem;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 3;
+    width: 22vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1Login {
+    color: #763D09;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.labelInputs {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    padding: 0rem 0rem 0rem 0.2rem;
+    text-align: start;
+    margin-right: 74%;
+    margin-bottom: 0;
+    margin-top: 3%;
+    color: #3B1E04;
+    letter-spacing: -0.7px;
+}
+
+.inputEmail,
+.inputPassword {
+    width: 92%;
+    margin: auto;
+    border: none;
+    height: 30px;
+    outline: none;
+    font-family: Roboto;
+    padding: 0rem 0.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.yellowBtn {
+    background-color: #FFB800;
+    border-top: 2.5px solid #CC9300;
+    border-bottom: 6.5px solid #CC9300;
+    border-left: 2.5px solid #CC9300;
+    border-right: 6.5px solid #CC9300;
+    width: 93%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 1rem 0rem 1rem;
+}
+
+.yellowBtn:hover {
+    background-color: #CC9300;
+    transition: 1s;
+}
+
+.redBtn {
+    background-color: #FF3D00;
+    border-top: 2.5px solid #DF3600;
+    border-bottom: 6.5px solid #DF3600;
+    border-left: 2.5px solid #DF3600;
+    border-right: 6.5px solid #DF3600;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 0rem 0rem 2rem;
+}
+
+#signUpBtn,
+#signInBtn {
+    width: 93%;
+
+}
+
+.redBtn:hover {
+    background-color: #DF3600;
+    transition: 1s;
+}
+
+.isWorker {
+    color: #3B1E04;
+    font-family: Roboto;
+    margin-bottom: 0.3rem;
+}
+
+.msgErro {
+    color: #DF3600;
+    margin: 0rem 0.8rem;
+    text-align: left;
+    font-family: Roboto;
+}
+
+footer {
+    background: #FFE1BE;
+    border-top: 2px solid rgb(100, 55, 12);
+    color: #3a2e2e;
+    box-shadow: #000000 1px 2px 55px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 5;
+}
+
+.pFooter {
+    font-size: 1rem;
+    font-weight: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
