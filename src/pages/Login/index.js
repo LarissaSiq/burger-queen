@@ -62,7 +62,7 @@ export function Login() {
             <div className="logo">
                 <img src={imgBurger} className="imgLogo" alt="imgburger" />
                 <h1 className="wood">WOOD</h1>
-                <h1 className="burger">BURGER</h1>
+                <h1 className="burger">BURGERS</h1>
             </div>
 
             <div className="divInfo">
@@ -70,7 +70,7 @@ export function Login() {
                     <h1 className="h1Login">LOGIN</h1>
                     <form className="form-wrapper">
                         <div className="divEmail">
-                            <p for="email" className="labelInputs">E-mail</p>
+                            <p htmlFor="email" className="labelInputs">E-mail</p>
                             <Input
                                 data="input-email"
                                 type="email"
@@ -83,7 +83,7 @@ export function Login() {
                         </div>
 
                         <div className="divPassword">
-                            <p for="password" className="labelInputs">Senha</p>
+                            <p htmlFor="password" className="labelInputs">Senha</p>
                             <Input
                                 data="input-password"
                                 type="password"

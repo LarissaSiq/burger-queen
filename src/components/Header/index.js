@@ -31,7 +31,6 @@ export function Header({
                 </div>
             </div>
         </header>
-
     )
 }
 
@@ -41,7 +40,6 @@ export function HeaderKitchen({
         <header className="header">
             <h1 className="headerH1">COZINHA</h1>
         </header>
-
     )
 }
 
