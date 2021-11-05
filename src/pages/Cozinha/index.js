@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { HeaderKitchen } from '../../components/Header'
-import "./index.css";
-import "./responsive.css";
+import { HeaderKitchen } from '../../components/Header';
 import { OrderKitchen } from "../../components/OrderKitchen";
 import { convertDate, convertTime, prepareTime } from "../../services/React/auth.js";
 import { Background } from "../../services/React/auth.js";
-import { LogoutButton } from '../../components/LogoutButton/index'
+import { LogoutButton } from '../../components/LogoutButton';
+import '../../components/LogoutButton/index.css';
+import "./index.css";
 
 
 export function Cozinha() {
@@ -77,7 +77,7 @@ export function Cozinha() {
     return (
         < main className="kitchen" >
 
-             <LogoutButton />
+            <LogoutButton />
             < HeaderKitchen />
             <OrderKitchen
                 prepareTime={prepareTime}

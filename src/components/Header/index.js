@@ -1,9 +1,9 @@
 /* eslint-disable no-empty-pattern */
 import React from "react";
-import { useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom";
 import orderImg from '../../assets/images/orders.png';
 import { MdArrowBack } from "react-icons/md";
-import { Button } from "../Button/index";
+import { Button } from "../Button";
 import "./index.css";
 import "./responsive.css";
 
@@ -31,6 +31,7 @@ export function Header({
                 </div>
             </div>
         </header>
+
     )
 }
 
@@ -40,6 +41,7 @@ export function HeaderKitchen({
         <header className="header">
             <h1 className="headerH1">COZINHA</h1>
         </header>
+
     )
 }
 

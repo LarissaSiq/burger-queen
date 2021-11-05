@@ -6,23 +6,19 @@ export function Button({
     className,
     onClick,
     id,
-    value,
-    label,
     data,
 }) {
     return (
-        <div data-testid='button'>
+        <span data-testid='button'>
             <button
                 data-testid={data}
                 type={type}
                 className={className}
                 onClick={onClick}
-                value={value}
                 id={id}
-                label={label}
             >
                 {children}
             </button>
-        </div>
+        </span>
     )
 }

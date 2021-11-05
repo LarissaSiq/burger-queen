@@ -1,7 +1,7 @@
-import { Button } from "../Button/index"
-import { Item } from "../Item/index"
-import React from "react"
-import "./index.css"
+import { Button } from "../Button/";
+import { Item } from "../Item/";
+import React from "react";
+import "./index.css";
 
 export function OrderPedidos({
     convertTime,
@@ -58,18 +58,18 @@ export function OrderPedidos({
                                                     < p className="orderPreparing" >
                                                         PREPARANDO
                                                     </p>
-                                                    : data.status === 'ready' && localStorage.getItem('role')==='hall' ?
-                                                        <Button className="yellowBtn" id="statusOrderToServe" 
+                                                    : data.status === 'ready' && localStorage.getItem('role') === 'hall' ?
+                                                        <Button className="yellowBtn" id="statusOrderToServe"
                                                             onClick={(e) => handleServing(data, e)}
                                                         > Servir</Button>
-                                                        : data.status ==='ready' && localStorage.getItem('role')==='kitchen' ?
-                                                        < p className="orderReady" >
-                                                            {data.status.replace('ready', 'PRONTO')}
-                                                        </p>:
-                                                        
-                                                        < p className="orderServed" >
-                                                            Pedido entregue em {prepareTime(data.createdAt, data.updatedAt)} min.
-                                                        </p>
+                                                        : data.status === 'ready' && localStorage.getItem('role') === 'kitchen' ?
+                                                            < p className="orderReady" >
+                                                                {data.status.replace('ready', 'PRONTO')}
+                                                            </p> :
+
+                                                            < p className="orderServed" >
+                                                                Pedido entregue em {prepareTime(data.createdAt, data.updatedAt)} min.
+                                                            </p>
                                             }
 
                                         </div>

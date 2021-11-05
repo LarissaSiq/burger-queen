@@ -1,6 +1,6 @@
-import { Button } from "../Button/index"
-import { Item } from "../Item/index"
-import React from "react"
+import { Button } from "../Button";
+import { Item } from "../Item";
+import React from "react";
 import './index.css';
 
 

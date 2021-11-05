@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from 'react';
+import React, { useState } from "react";
 import "./index.css";
 import "./responsive.css";
 import { Input } from "../Input";
