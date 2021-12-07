@@ -5,8 +5,3 @@ A WoodBurgers é um projeto desenvolvido atráves do consumo de API e com o fram
 
 ## Link para a aplicação
 [WoodBurgers](https://stark-citadel-37160.herokuapp.com/login)
-
----
-## :woman_technologist: Desenvolvedoras: 
-* [Larissa Siqueira](https://github.com/LarissaSiq)
-* [Lediane Machado](https://github.com/ledi-mach)
